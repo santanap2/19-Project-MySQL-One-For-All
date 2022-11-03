@@ -1,3 +1,5 @@
+# iniciando projeto
+
 DROP DATABASE IF EXISTS SpotifyClone;
 
   CREATE DATABASE IF NOT EXISTS SpotifyClone;
