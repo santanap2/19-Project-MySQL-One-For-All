@@ -62,16 +62,16 @@ INSERT INTO SpotifyClone.plans(`name`, `price`) VALUES
   ('pessoal', 6.99);
 
 INSERT INTO SpotifyClone.users(`username`, `age`, `plan_id`, `signature_date`) VALUES
-('Barbara Liskov', 82, 1, '2019-10-20'),
-('Robert Cecil Martin', 58, 1, '2017-01-06'),
-('Ada Lovelace', 37, 1, '2017-12-30'),
-('Martin Fowler', 46, 1, '2017-01-17'),
-('Sandi Metz', 58, 1, '2018-04-29'),
-('Paulo Freire', 19, 1, '2018-02-14'),
-('Bell Hooks', 26, 1, '2018-01-05'),
-('Christopher Alexander', 85, 1, '2019-06-05'),
-('Judith Butler', 45, 1, '2020-05-13'),
-('Jorge Amado', 58, 1, '2017-02-17');
+  ('Barbara Liskov', 82, 1, '2019-10-20'),
+  ('Robert Cecil Martin', 58, 1, '2017-01-06'),
+  ('Ada Lovelace', 37, 2, '2017-12-30'),
+  ('Martin Fowler', 46, 2, '2017-01-17'),
+  ('Sandi Metz', 58, 2, '2018-04-29'),
+  ('Paulo Freire', 19, 3, '2018-02-14'),
+  ('Bell Hooks', 26, 3, '2018-01-05'),
+  ('Christopher Alexander', 85, 4, '2019-06-05'),
+  ('Judith Butler', 45, 4, '2020-05-13'),
+  ('Jorge Amado', 58, 4, '2017-02-17');
 
 INSERT INTO SpotifyClone.artists(`name`) VALUES
   ('Beyoncé'),
